@@ -1,1 +1,1 @@
-# Reinforcement-Learning-Based-Prediction-of-the-S-P-200-Using-Financial-and-News-Data
+# Developing a PPO reinforcement learning model to predict S&P 200 daily trading actions (BUY/SELL/HOLD) by fusing historical OHLCV data with financial news sentiment. Built a pipeline using GNews and yfinance to aggregate market data, passing over 71,000 cleaned news articles through a FinBERT transformer to generate 768-dimensional sentiment embeddings. Applying these embeddings with historical price patterns to train the predictive model and improve trading decisions.
